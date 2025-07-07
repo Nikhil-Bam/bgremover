@@ -1,0 +1,92 @@
+.magicBrushContainer {
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Hero Section Text */
+.heroSection h4 {
+  font-size: 18px;
+  color: #607d8b;
+  margin-bottom: 10px;
+}
+
+.heroSection h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  line-height: 1.4;
+  white-space: pre-line; /* preserve line breaks */
+}
+
+/* Call-to-action button */
+.ctaBtn {
+  background-color:rgb(244, 71, 8);
+  color: #fff;
+  font-size: 16px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(20, 93, 192, 0.4);
+}
+
+.ctaBtn:hover {
+  background-color: #019e80;
+  box-shadow: 0 6px 16px rgba(1, 158, 128, 0.6);
+}
+
+/* Static Image Preview */
+.imagePreview {
+  margin-top: 40px;
+}
+
+.imagePreview img {
+  max-width: 100%;
+  border-radius: 12px;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.result-box {
+  margin-top: 40px;
+  text-align: center;
+  background-color:skyblue;
+}
+
+.result-box h4 {
+  font-weight: 600;
+  color:rgb(255, 11, 28);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
+
+.result-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(20, 93, 192, 0.3);
+}
+
+.result-box a {
+  display: inline-block;
+  margin-top: 10px;
+  color:rgb(192, 20, 20);
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.result-box a:hover {
+  color: #019e80;
+  text-decoration: underline;
+}
+.dimage{
+  border-radius:100px;
+  width:10px;
+}

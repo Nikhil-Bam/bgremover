@@ -1,0 +1,138 @@
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  position: relative;
+  z-index: 2;
+  object-fit: cover;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.upload-box {
+  background: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+.upload-btn {
+  background-color: #007aff;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #005bb5;
+}
+
+.upload-info {
+  margin-top: 15px;
+  color: #555;
+  font-size: 15px;
+}
+
+.upload-link {
+  color: #007aff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.hero-text {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin-right: 600px;
+  margin-top: 30px;
+  font-size: 24px;
+  
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.free-tag {
+  background: #fdd835;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+/* --- Processed Image Output --- */
+
+.result-box {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f4f6f8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.result-box h4 {
+  margin-bottom: 12px;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.result-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.result-box img:hover {
+  transform: scale(1.03);
+}
+
+.result-box a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.result-box a:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}

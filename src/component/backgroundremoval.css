@@ -1,0 +1,62 @@
+.backgroundPage {
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.backgroundPage h2 {
+  color: #607d8b;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* Main Heading */
+.backgroundPage h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 24px;
+}
+
+/* Button Style */
+.removeBtn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.removeBtn:hover {
+  background-color: #145dc0;
+}
+
+/* Preview Container */
+.imagePreview {
+  margin-top: 40px;
+  position: relative;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.imagePreview img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.img1 {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+}

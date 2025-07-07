@@ -1,0 +1,68 @@
+.customBackgroundContainer {
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+/* Hero content styling */
+.heroContent h4 {
+  font-size: 18px;
+  color: #607d8b;
+  margin-bottom: 10px;
+}
+
+.heroContent h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+/* Buttons */
+.customBtn {
+  background-color: #145dc0;
+  color: #fff;
+  font-size: 16px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(20, 93, 192, 0.3);
+}
+
+.customBtn:hover {
+  background-color: #019e80;
+}
+
+/* Image preview container */
+.previewImage {
+  margin-top: 40px;
+}
+
+.previewImage img {
+  max-width: 100%;
+  border-radius: 12px;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Result box styling */
+.result-box {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.result-box h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.result-box img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
