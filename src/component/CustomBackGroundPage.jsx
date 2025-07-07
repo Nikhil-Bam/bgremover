@@ -28,7 +28,7 @@ export default function CustomBackgroundPage() {
     formData.append("background", bgFile);
 
     try {
-      const response = await fetch("http://192.168.1.149:5001/custom-background", {
+      const response = await fetch("http://192.168.1.149:5000/custom-bg", {
         method: "POST",
         body: formData,
       });

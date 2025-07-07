@@ -17,7 +17,7 @@ export default function MagicBrushPage() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://192.168.1.149:5002/blur-bg", {
+      const response = await fetch("http://192.168.1.149:5000/blur-bg", {
         method: "POST",
         body: formData,
       });
