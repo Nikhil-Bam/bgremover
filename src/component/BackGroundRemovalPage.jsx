@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./backgroundremoval.css"; // styling remains the same
+import "./backgroundremoval.css";
 
 export default function BackgroundRemovalPage() {
   const fileInputRef = useRef(null);
@@ -28,8 +28,13 @@ export default function BackgroundRemovalPage() {
       }
 
       const blob = await response.blob();
-      const imageUrl = URL.createObjectURL(blob);
-      setProcessedImageUrl(imageUrl);
+
+      // Convert blob to base64
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setProcessedImageUrl(reader.result); // base64 string
+      };
+      reader.readAsDataURL(blob);
     } catch (error) {
       console.error("Upload failed:", error);
       alert("Upload failed: " + error.message);
@@ -56,7 +61,7 @@ export default function BackgroundRemovalPage() {
       </div>
 
       <div className="imagePreview">
-        <img src="/rmv.jpeg" alt="Demo Image" />
+        <img src="/12.jpeg" alt="preview showing background removal" />
       </div>
 
       {processedImageUrl && (
@@ -64,8 +69,12 @@ export default function BackgroundRemovalPage() {
           <h4>Processed Image (Background Removed):</h4>
           <img
             src={processedImageUrl}
-            alt="Processed"
-            style={{ maxWidth: "100%", borderRadius: "8px", marginTop: "10px" }}
+            alt="background removed result"
+            style={{
+              maxWidth: "100%",
+              borderRadius: "8px",
+              marginTop: "10px",
+            }}
           />
           <a
             href={processedImageUrl}
