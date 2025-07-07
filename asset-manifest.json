@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bgremover/static/css/main.98e52dd8.css",
+    "main.js": "/bgremover/static/js/main.5296c0af.js",
+    "static/js/453.96453769.chunk.js": "/bgremover/static/js/453.96453769.chunk.js",
+    "index.html": "/bgremover/index.html",
+    "main.98e52dd8.css.map": "/bgremover/static/css/main.98e52dd8.css.map",
+    "main.5296c0af.js.map": "/bgremover/static/js/main.5296c0af.js.map",
+    "453.96453769.chunk.js.map": "/bgremover/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e52dd8.css",
+    "static/js/main.5296c0af.js"
+  ]
+}
