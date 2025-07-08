@@ -57,6 +57,7 @@ export default function MagicBrushPage() {
       </div>
 
       <div className="imagePreview">
+        {/* Image src updated to absolute path from public */}
         <img src="/blur.jpeg" alt="Magic Brush Demo" />
       </div>
 

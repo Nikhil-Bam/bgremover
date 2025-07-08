@@ -29,7 +29,7 @@ export default function BackgroundRemovalPage() {
 
       const blob = await response.blob();
 
-      // Convert blob to base64
+      // Convert blob to base64 string
       const reader = new FileReader();
       reader.onloadend = () => {
         setProcessedImageUrl(reader.result); // base64 string
@@ -61,6 +61,7 @@ export default function BackgroundRemovalPage() {
       </div>
 
       <div className="imagePreview">
+        {/* Image src updated with absolute path from public */}
         <img src="/12.jpeg" alt="preview showing background removal" />
       </div>
 

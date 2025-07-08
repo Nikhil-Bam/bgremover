@@ -56,8 +56,9 @@ export default function CustomBackgroundPage() {
           Add Any Background to Your Image Instantly
         </h1>
         <div className="previewImage">
-        <img src="download.jpeg" alt="Custom Background Preview" />
-      </div>
+          {/* Image src updated to absolute path from public */}
+          <img src="/download.jpeg" alt="Custom Background Preview" />
+        </div>
         <button className="customBtn" onClick={handleButtonClick}>
           Upload Image
         </button>
@@ -68,7 +69,11 @@ export default function CustomBackgroundPage() {
           onChange={handleFileChange}
           style={{ display: "none" }}
         />
-        <button className="customBtn" onClick={handleBackgroundClick} style={{ marginTop: "10px" }}>
+        <button
+          className="customBtn"
+          onClick={handleBackgroundClick}
+          style={{ marginTop: "10px" }}
+        >
           Upload Background
         </button>
         <input
@@ -97,8 +102,6 @@ export default function CustomBackgroundPage() {
           </div>
         )}
       </div>
-
-    
     </div>
   );
 }

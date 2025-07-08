@@ -1,11 +1,12 @@
-import Body from '../body/Body'
-import NavBar from '../NavBar'
+import React from 'react';
+import Body from '../body/Body';
+import NavBar from '../NavBar';
+
 export default function Home() {
   return (
     <div>
-      <NavBar/>
-      <Body/>
-  
+      <NavBar />
+      <Body />
     </div>
-  )
+  );
 }

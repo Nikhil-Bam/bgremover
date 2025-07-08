@@ -34,13 +34,14 @@ export default function Body() {
       console.error("Upload failed:", error);
       alert("Upload failed: " + error.message);
     }
-  }; 
-  
+  };
+
   return (
     <div className="hero-container">
       <div className="hero-left">
+        {/* Image src updated to absolute path from public */}
         <img
-          src="img/images.jpeg"
+          src="/images.jpeg"
           alt="Sample"
           className="hero-image"
         />
